@@ -1,10 +1,9 @@
 <div *ngIf="hero">
-  <h2>{{ hero.name | uppercase }} Details</h2>
-  <div><span>id: </span>{{hero.id}}</div>
+  <h2> Squat </h2>
+  <div><span>This page will teach you the proper form for squats! </span></div>
   <div>
-    <label>name:
-      <input [(ngModel)]="hero.name" placeholder="name"/>
-    </label>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Dy28eq2PjcM"
+    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   </div>
   <button (click)="goBack()">go back</button>
 </div>
