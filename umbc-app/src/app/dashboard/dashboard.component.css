@@ -41,7 +41,7 @@ h4 {
   color: #607d8b;
 }
 .grid-pad {
-  padding: 10px 0;
+  padding: 10px 100;
 }
 .grid-pad > [class*='col-']:last-of-type {
   padding-right: 20px;
