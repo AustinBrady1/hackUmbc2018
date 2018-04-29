@@ -25,31 +25,32 @@ export class DashboardComponent implements OnInit {
     if (sex != null) {
       while ((sex != ('Male').toString()) && (sex != ('male').toString()) &&
       (sex != ('Female').toString()) && (sex != ('female').toString())) {
-        sex = prompt("Please enter a valid sex");
+        if (sex == null) {return;}
+        else {sex = prompt("Please enter a valid sex");}
       }
       var weightString = prompt("Please enter your weight (in lbs)");
       if (weightString != null) {
-        while (parseFloat(weightString) < 0) {
+        while (parseFloat(weightString) < 0 || weightString == '') {
           weightString = prompt("Please enter a valid weight");
-        }
+        } if (weightString == null) {return;}
         var weight = parseFloat(weightString)/2.2;
         var squatString = prompt("Please enter your 1rm squat (in lbs)");
         if (squatString != null) {
-          while (parseFloat(squatString) < 0) {
+          while (parseFloat(squatString) < 0 || squatString == '') {
             squatString = prompt("Please enter a valid 1rm squat");
-          }
+          } if (squatString == null) {return;}
           var squat = parseFloat(squatString)/2.2;
           var benchString = prompt("Please enter your 1rm bench (in lbs)");
           if (benchString != null) {
-            while (parseFloat(benchString) < 0) {
+            while (parseFloat(benchString) < 0 || benchString == '') {
               benchString = prompt("Please enter a valid 1rm bench");
-            }
+            } if (benchString == null) {return;}
             var bench = parseFloat(benchString)/2.2;
             var deadliftString = prompt("Please enter your 1rm deadlift (in lbs)");
             if (deadliftString != null) {
-              while (parseFloat(deadliftString) < 0) {
+              while (parseFloat(deadliftString) < 0 || deadliftString == '') {
                 deadliftString = prompt("Please enter a valid 1rm deadlift");
-              }
+              } if (deadliftString == null) {return;}
               var deadlift = parseFloat(deadliftString)/2.2;
               var total = squat+bench+deadlift;
               var wilksCoefficient, a, b, c, d, e, f;
@@ -74,10 +75,10 @@ export class DashboardComponent implements OnInit {
                   (d*(Math.pow(weight,3)))+(e*(Math.pow(weight,4)))+(f*(Math.pow(weight,5))));
               }
               alert("Your wilks is " + (total*wilksCoefficient));
-            }
-          }
-        }
-      }
-    }
+            } else {return;}
+          } else {return;}
+        }else {return;}
+      } else {return;}
+    } else {return;}
   }
 }
