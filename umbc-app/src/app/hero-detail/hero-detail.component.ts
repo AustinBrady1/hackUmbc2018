@@ -113,13 +113,13 @@ export class HeroDetailComponent implements OnInit {
       	axisY2:{
       		interlacedColor: "rgba(1,77,101,.2)",
       		gridColor: "rgba(1,77,101,.1)",
-      		title: "Wilks Score"
+      		title: "Wilks Score (weight lifted @ weight class)"
       	},
       	data: [{
       		type: "bar",
       		name: "lifters",
       		axisYType: "secondary",
-      		color: "#014D65",
+      		color: "#0080ff",
       		dataPoints: [
       			{ y: 264.83, label: "Andrzej Stanaszek (639@123)" },
       			{ y: 213.56, label: "Mike Booker (551@132)" },
@@ -148,13 +148,13 @@ export class HeroDetailComponent implements OnInit {
       	axisY2:{
       		interlacedColor: "rgba(1,77,101,.2)",
       		gridColor: "rgba(1,77,101,.1)",
-      		title: "Wilks Score"
+      		title: "Wilks Score (weight lifted @ weight class)"
       	},
       	data: [{
       		type: "bar",
       		name: "lifters",
       		axisYType: "secondary",
-      		color: "#014D65",
+      		color: "#0080ff",
       		dataPoints: [
       			{ y: 162.05, label: "Andrzej Stanaszek (391@123)" },
       			{ y: 164.34, label: "Eric Head (424@132)" },
@@ -184,13 +184,13 @@ export class HeroDetailComponent implements OnInit {
       	axisY2:{
       		interlacedColor: "rgba(1,77,101,.2)",
       		gridColor: "rgba(1,77,101,.1)",
-      		title: "Wilks Score"
+      		title: "Wilks Score (weight lifted @ weight class)"
       	},
       	data: [{
       		type: "bar",
       		name: "lifters",
       		axisYType: "secondary",
-      		color: "#014D65",
+      		color: "#0080ff",
       		dataPoints: [
       			{ y: 262.76, label: "Lamar Gant (634@123)" },
       			{ y: 244.19, label: "Stuart Jamieson (630@132)" },

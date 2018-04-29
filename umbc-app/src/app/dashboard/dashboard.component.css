@@ -62,7 +62,7 @@ h4 {
 }
 .right{
     margin: right;
-    padding: 5px;
+    padding: 15px;
 }
 
 .left{
@@ -71,5 +71,5 @@ h4 {
 }
 .center {
     margin: auto;
-    padding: 17.5px;
+    padding: 30px;
 }
