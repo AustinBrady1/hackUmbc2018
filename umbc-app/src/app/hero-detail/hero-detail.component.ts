@@ -119,7 +119,7 @@ export class HeroDetailComponent implements OnInit {
       		type: "bar",
       		name: "lifters",
       		axisYType: "secondary",
-      		color: "#0080ff",
+      		color: "#014D65",
       		dataPoints: [
       			{ y: 264.83, label: "Andrzej Stanaszek (639@123)" },
       			{ y: 213.56, label: "Mike Booker (551@132)" },
@@ -154,7 +154,7 @@ export class HeroDetailComponent implements OnInit {
       		type: "bar",
       		name: "lifters",
       		axisYType: "secondary",
-      		color: "#0080ff",
+      		color: "#014D65",
       		dataPoints: [
       			{ y: 162.05, label: "Andrzej Stanaszek (391@123)" },
       			{ y: 164.34, label: "Eric Head (424@132)" },
@@ -190,7 +190,7 @@ export class HeroDetailComponent implements OnInit {
       		type: "bar",
       		name: "lifters",
       		axisYType: "secondary",
-      		color: "#0080ff",
+      		color: "#014D65",
       		dataPoints: [
       			{ y: 262.76, label: "Lamar Gant (634@123)" },
       			{ y: 244.19, label: "Stuart Jamieson (630@132)" },
