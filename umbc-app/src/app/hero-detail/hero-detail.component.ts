@@ -105,7 +105,8 @@ export class HeroDetailComponent implements OnInit {
         ,
 
       	title:{
-      		text:"Squat"
+      		text:"Raw Squat World Record",
+          horizontalAlign: "center"
       	},
       	axisX:{
       		interval: 1
@@ -140,7 +141,8 @@ export class HeroDetailComponent implements OnInit {
       	animationEnabled: true,
 
       	title:{
-      		text:"Bench"
+      		text:"Raw Bench World Record",
+          horizontalAlign: "center"
       	},
       	axisX:{
       		interval: 1
@@ -176,7 +178,8 @@ export class HeroDetailComponent implements OnInit {
       	animationEnabled: true,
 
       	title:{
-      		text:"Deadlift"
+      		text:"Raw Deadlift World Record",
+          horizontalAlign: "center"
       	},
       	axisX:{
       		interval: 1
