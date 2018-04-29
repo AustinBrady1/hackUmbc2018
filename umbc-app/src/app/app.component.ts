@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Powerlifting 101';
+  title = 'Powerlifting 101: An Intro to the Iron Sport';
 }

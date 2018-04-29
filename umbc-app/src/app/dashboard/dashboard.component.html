@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head>
-
-</head>
 <body>
+  <h2>
+  <div align="center" style="padding:6px; background-color: white; border: black 2px solid">Click the button below to calculate your personal wilks coefficient to see how you
+    stack up to the best!</div>
+  </h2>
+  <p align="center">The wilks coefficient is a measure that standardizes strength across weight classes and sexes.</p>
+  <div align="center">
+    <button (click)="wilksCalc()">Calculate your wilks!</button>
+  </div>
 <div class="grid grid-pad">
   <a *ngFor="let hero of heroes" class="col-1-4"
       routerLink="/detail/{{hero.id}}">
@@ -11,13 +16,21 @@
       <h4>{{hero.name}}</h4>
     </div>
   </a>
-  <p>Click the button to calculate your personal wilks coefficient to see how you
-    stack up to the best!</p>
-
-
-  <div>
-    <button (click)="wilksCalc()">Calculate your wilks!</button>
-  </div>
 </div>
+  <span class="left">
+    <iframe width="380" height="315" src="https://www.youtube.com/embed/Dy28eq2PjcM"
+    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </span>
+  <span class="center">
+    <iframe width="380" height="315" src="https://www.youtube.com/embed/hZPYTIPb2To"
+    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </span>​
+  <span class="right">
+    <iframe width="380" height="315" src="https://www.youtube.com/embed/xxFpHWEi6UE"
+    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </span>
+  <p>
+    <img src="wilks.jpg" alt="Wilks chart" width="500" height="500">
+  </p>
 </body>
 </html>
