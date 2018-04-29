@@ -46,17 +46,17 @@ export class HeroesComponent implements OnInit {
       		axisYType: "secondary",
       		color: "#014D65",
       		dataPoints: [
-      			{ y: 639, label: "Andrzej Stanaszek" },
-      			{ y: 551, label: "Mike Booker" },
-      			{ y: 556, label: "Mike Kuhns" },
-      			{ y: 622, label: "Justin Caputo" },
-      			{ y: 749, label: "Aleksey Nikulin" },
-      			{ y: 804, label: "Amit Sapir" },
-      			{ y: 821, label: "Amit Sapir" },
-            { y: 832, label: "Kevin Oak" },
-            { y: 865, label: "Dennis Cornelius" },
-            { y: 920, label: "Eric Lilliebridge "},
-            { y: 1052, label: "Ray Williams"}
+      			{ y: 639, label: "Andrzej Stanaszek (123)" },
+      			{ y: 551, label: "Mike Booker (132)" },
+      			{ y: 556, label: "Mike Kuhns (148)" },
+      			{ y: 622, label: "Justin Caputo (165)" },
+      			{ y: 749, label: "Aleksey Nikulin (181)" },
+      			{ y: 804, label: "Amit Sapir (198)" },
+      			{ y: 821, label: "Amit Sapir (220)" },
+            { y: 832, label: "Kevin Oak (242)" },
+            { y: 865, label: "Dennis Cornelius (275)" },
+            { y: 920, label: "Eric Lilliebridge (308)"},
+            { y: 1052, label: "Ray Williams (SHW)"}
       		]
       	}]
       });
